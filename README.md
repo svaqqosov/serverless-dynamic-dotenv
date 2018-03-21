@@ -1,4 +1,4 @@
-Dynamic environment management using [Dotenv](https://www.npmjs.com/package/dotenv)
+Dynamic environment management using [Dotenv](https://www.npmjs.com/package/dotenv) and [serverless-plugin-dotenv](https://www.npmjs.com/package/serverless-plugin-dotenv)
 
 You can use this plugin if you are storing your environment variables using dontenv module. This will allow you to reference env variables `${env:VAR_NAME}` inside your serverless.yaml and it will load them into your lambdas.
 
