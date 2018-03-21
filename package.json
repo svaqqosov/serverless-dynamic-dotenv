@@ -1,0 +1,33 @@
+{
+  "name": "serverless-dynamic-dotenv",
+  "version": "1.0.0",
+  "description": "Dynamic environment management using Dotenv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/svaqqosov/serverless-dynamic-dotenv.git"
+  },
+  "keywords": [
+    "serverless",
+    "dontenv",
+    "dynamic-dotenv",
+    "serverless-environment-variables",
+    "serverless plugin write environment variables",
+    "dotenv lambda",
+    "env vars lambda"
+  ],
+  "author": "Sardor Vaqqosov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svaqqosov/serverless-dynamic-dotenv/issues"
+  },
+  "homepage": "https://github.com/svaqqosov/serverless-dynamic-dotenv#readme",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "dotenv": "^4.0.0",
+    "dotenv-expand": "^4.0.1"
+  }
+}
